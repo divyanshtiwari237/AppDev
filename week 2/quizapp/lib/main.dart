@@ -19,12 +19,7 @@ class QuestionList extends StatefulWidget {
 }
 
 class _QuestionListState extends State<QuestionList> {
-  static List<QuestionAnswerObject> qna =[
-       QuestionAnswerObject(question:'Cats are carnivores',answer:'True'),
-       QuestionAnswerObject(question:'Friends is the best show',answer:'False'),
-       QuestionAnswerObject(question:'Lines are curved',answer:'True'),
-       QuestionAnswerObject(question:'If you can play it slowly,you can play it quickly',answer:'False'),
-  ];
+  
   List<QuestionAnswerObject> q =QuestionList1().getlist;
 
   int i=0;
